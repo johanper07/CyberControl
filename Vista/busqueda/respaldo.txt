@@ -1,0 +1,26 @@
+                <?php
+         include('../../Modelo/ConexionDatos.php');
+         
+         $hola = 'SELECT * FROM producto';
+         $resul= $conexion->query($hola);
+         while ($fila=$resul->fetch_assoc()){
+           ?>  
+           <tr>
+               
+         <td><?php echo $fila['id']; ?></td>
+         <td><?php echo $fila['nombre']; ?></td>
+         <td><?php echo $fila['precio']; ?></td>
+         <td><?php echo $fila['stock']; ?></td>
+         <td><?php echo $fila['descripcion']; ?></td>   
+         <td><?php echo $fila['fechaVencimiento']; ?></td>  
+         
+         
+         <td><a href='../../Controlador/modificarProductos.php?id=<?php echo $fila['id']; ?>'>Modificar </a></td> 
+          <td><a href='../../Controlador/eliminarProductos.php?id=<?php echo $fila['id']; ?>'>Eliminar </a></td>    
+             
+         </tr>
+         
+             <?php
+         
+         }
+         ?>

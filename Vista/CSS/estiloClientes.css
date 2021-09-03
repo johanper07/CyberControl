@@ -1,0 +1,138 @@
+* BODY{
+    margin: 0;
+    padding: 0;
+    background:#ECF0F1  ;
+    width: 100%;
+
+}
+header{
+    position: relative;
+    top: 30;
+    margin-left: 180;
+    margin-right: 180;
+    background:#7DCEA0;
+    font-family:cursive;
+    font-size: 110%;
+    border: solid;
+    border-radius: 20px;
+     
+}
+.ventana{
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: fixed;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    display: none;
+}
+.ventana , td {
+    color: #666;
+}
+.form{
+    width: 400px;
+    height: 170;
+    padding: 25px;
+    background-color: white;
+    color: #666;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    margin-left: -175px;
+    margin-top: -175px;
+}
+.cerrar{
+    color: red;
+    font-weight: 900;
+    text-align: right;
+}
+.botones {
+    top: -200px;
+    height: ;
+}
+
+.ima1{
+    float: left;
+    margin-left: 8.5%;
+    width: 12%;
+
+}
+
+
+aside {
+    
+    background: ;
+}
+.barra{
+    float: left;
+    margin-right: -70%;
+}
+aside nav{
+    background:#1F618D;
+    overflow: hidden;
+}
+aside nav ul{
+    list-style: none;
+}
+aside nav ul li{
+    float: left; 
+}
+aside nav ul li a{
+    font-size: 20;
+    font-family: cursive;
+    margin-top: -2%;
+    padding: 10px 9px;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+}
+aside nav ul li a:hover{
+    background: #145A32 ;  
+}
+.hands{
+    float: left;
+   
+}
+.buttom1 {
+
+	width:30% ;
+	border: 7px solid #196F3D  ;
+	float: left;
+	background:#F5F5F5 ;
+	margin-bottom: 5em;
+	margin-left: 15em;
+	-moz-border-radius: 20px;
+ 	-webkit-border-radius: 20px;
+ 	border-radius: 20px;
+ 	-moz.box-shadow: rgb(150,150,150) 5px 5px;
+ 	-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+ 	box-shadow: rgb(150,150,150) 5px 5px;
+}
+
+
+.buttom2 {
+	width:30% ;
+	border: 7px solid #196F3D  ;
+	float: left;
+	background:#F5F5F5 ;
+	margin-bottom: 5em;
+	margin-left: 2em;
+	-moz-border-radius: 20px;
+ 	-webkit-border-radius: 20px;
+ 	border-radius: 20px;
+ 	-moz.box-shadow: rgb(150,150,150) 5px 5px;
+ 	-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+ 	box-shadow: rgb(150,150,150) 5px 5px;
+ }
+
+
+footer{
+
+    margin-top: 20%;
+    top:5%;
+    background: #85C1E9 ;
+    border: 1px solid;
+   
+    
+}

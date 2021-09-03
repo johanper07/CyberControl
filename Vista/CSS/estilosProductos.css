@@ -1,0 +1,96 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+    font-family: sans-serif; 
+    
+    background-size: 100%;    
+-moz-background-size: 100%;  
+  -o-background-size: 100%;   
+ -webkit-background-size: 100%;  
+   -khtml-background-size: 100%; 
+}
+
+header{
+
+    margin-left: 0%;
+    background:#7DCEA0;
+    font-family:cursive ;
+    font-size: 100%;
+    border: 1px solid;
+    font-size: 330%;
+    text-align: center;
+   
+     
+}
+
+.inicio{
+    width: 380px;
+    float: left;
+    margin-left: 37%;
+}
+.registro{
+    border-radius: 10px;
+}
+
+
+.formulario{
+    
+    background-color: ;
+    float: left;
+    margin-left: 3%;
+    text-align: center;
+    
+}
+
+.formulario ,td, input[type="submit"]
+{
+     
+    border: none;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    background: #7DCEA0;
+    border-radius: 10px;
+}
+
+.informacion{
+  padding: 20px;
+ 
+}
+
+table{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;   
+}
+th, td{
+
+    padding: 10;
+}
+thead{
+    background-color: #27AE60;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+    
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover td{
+    background-color: #369681;
+    color: white;
+}
+
+footer{
+
+    margin-top: 10%;
+
+    top:5%;
+    background: #85C1E9 ;
+    border: 1px solid; 
+}

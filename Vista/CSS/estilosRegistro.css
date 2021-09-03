@@ -1,0 +1,85 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(../Imagenes/fondo.jpg);
+    background-size: cover;
+    font-family: sans-serif; 
+}
+
+.registro{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 50px;
+    width:400px;
+    height: 610px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+    border-radius: 20px;
+}
+header{
+
+    margin-left: -3%;
+    background:#7DCEA0;
+    font-family:cursive;
+    font-size: 100%;
+    border: 1px solid;
+   
+     
+}
+
+h3{
+    margin: 0;
+    padding: 0 0 20px;
+    color:blue;
+}
+.registro p {
+    margin: 0;
+    padding: 0; font-weight: bold;
+    color: antiquewhite;
+}
+.registro input{
+    width: 95%;
+    margin-bottom: 10px;
+}
+.registro input[type="text"],
+.registro input[type="password"],
+.registro input[type="email"],
+.registro input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255,.5);
+}
+
+. seleccione {
+    align-content: center;
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.registro input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    background: #7DCEA0;
+    border-radius: 20px;
+}

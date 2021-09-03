@@ -1,0 +1,10 @@
+$hola = "SELECT * FROM factura";
+$resul= $conexion->query($hola);
+while ($fila=$resul->fetch_assoc()){
+    
+$pdf->Cell(10,8,'',0);            
+$pdf->Cell(70,8,utf8_decode('producto'),0);
+$pdf->Cell(72,8,utf8_decode('cantidad'),0);
+$pdf->Cell(40,8,utf8_decode('precio'),0);
+$pdf->Ln(7);
+    

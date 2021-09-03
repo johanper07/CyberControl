@@ -1,0 +1,83 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(../Imagenes/fondo.jpg);
+    background-size: cover;
+    font-family: sans-serif; 
+}
+
+.loginBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px 40px;
+    width: 350px;
+    height: 420px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+}
+.user
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left : calc(50% - 50px);
+}
+
+h3{
+    margin: 0;
+    padding: 0 0 20px;
+    color:#3498DB;
+}
+.loginBox p {
+    margin: 0;
+    padding: 0; font-weight: bold;
+    color: antiquewhite;
+}
+.loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+::placeholder{
+    color: rgba(255, 255, 255,.5);
+}
+
+. seleccione {
+    align-content: center;
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+
+
+.loginBox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    background: #7DCEA0;
+    border-radius: 10px;
+}

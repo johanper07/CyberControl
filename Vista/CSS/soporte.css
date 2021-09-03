@@ -1,0 +1,65 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+    font-family: sans-serif; 
+    
+    background-size: 100%;    
+-moz-background-size: 100%;  
+  -o-background-size: 100%;   
+ -webkit-background-size: 100%;  
+   -khtml-background-size: 100%; 
+}
+
+header{
+
+    margin-left: 0%;
+    background:#7DCEA0;
+    font-family:cursive ;
+    font-size: 100%;
+    border: 1px solid;
+    font-size: 330%;
+    text-align: center;    
+}
+.inicio{
+    width: 180px;
+    float: left;
+    
+}
+.formulario{
+    width: 410px;
+    background-color: ;
+
+    margin-left: 3%;
+    text-align: center;
+    
+}
+.tabla2{
+  width: 410px; 
+
+
+}
+.formulario input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    background: #7DCEA0;
+    border-radius: 10px;
+}
+
+
+
+
+footer{
+
+    margin-top: 10%;
+
+    top:5%;
+    background: #85C1E9 ;
+    border: 1px solid; 
+}
